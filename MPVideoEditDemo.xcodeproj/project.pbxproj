@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C838BDAB77B0C28B655B485 /* libPods-MPVideoEditDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF0AB17949D731776488423 /* libPods-MPVideoEditDemoUITests.a */; };
+		29E63DE3311799797AFA332C /* libPods-MPVideoEditDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B190F915B237517F25ED921B /* libPods-MPVideoEditDemo.a */; };
+		711042E83E6C89B1B97282EE /* libPods-MPVideoEditDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70790FDD521F95AE2FED1D /* libPods-MPVideoEditDemoTests.a */; };
+		A210E075242857CF00E94A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A210E074242857CF00E94A66 /* AppDelegate.m */; };
+		A210E07B242857CF00E94A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A210E07A242857CF00E94A66 /* ViewController.m */; };
+		A210E080242857D000E94A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A210E07F242857D000E94A66 /* Assets.xcassets */; };
+		A210E083242857D000E94A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A210E081242857D000E94A66 /* LaunchScreen.storyboard */; };
+		A210E086242857D000E94A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A210E085242857D000E94A66 /* main.m */; };
+		A210E090242857D000E94A66 /* MPVideoEditDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A210E08F242857D000E94A66 /* MPVideoEditDemoTests.m */; };
+		A210E09B242857D000E94A66 /* MPVideoEditDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A210E09A242857D000E94A66 /* MPVideoEditDemoUITests.m */; };
+		A28826A42429AE18006C7559 /* MPVideoCompostionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A28826A32429AE18006C7559 /* MPVideoCompostionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A210E08C242857D000E94A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A210E068242857CF00E94A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A210E06F242857CF00E94A66;
+			remoteInfo = MPVideoEditDemo;
+		};
+		A210E097242857D000E94A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A210E068242857CF00E94A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A210E06F242857CF00E94A66;
+			remoteInfo = MPVideoEditDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		373AEE981749A464E4C43074 /* Pods-MPVideoEditDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemo/Pods-MPVideoEditDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4E70790FDD521F95AE2FED1D /* libPods-MPVideoEditDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPVideoEditDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799A8CF5B4ABEBBAFC48BBCA /* Pods-MPVideoEditDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemo/Pods-MPVideoEditDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8FF0AB17949D731776488423 /* libPods-MPVideoEditDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPVideoEditDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A210E070242857CF00E94A66 /* MPVideoEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPVideoEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A210E073242857CF00E94A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A210E074242857CF00E94A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A210E079242857CF00E94A66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A210E07A242857CF00E94A66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A210E07F242857D000E94A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A210E082242857D000E94A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A210E084242857D000E94A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A210E085242857D000E94A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A210E08B242857D000E94A66 /* MPVideoEditDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPVideoEditDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A210E08F242857D000E94A66 /* MPVideoEditDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVideoEditDemoTests.m; sourceTree = "<group>"; };
+		A210E091242857D000E94A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A210E096242857D000E94A66 /* MPVideoEditDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPVideoEditDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A210E09A242857D000E94A66 /* MPVideoEditDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVideoEditDemoUITests.m; sourceTree = "<group>"; };
+		A210E09C242857D000E94A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28826A12429A997006C7559 /* MPVideoEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPVideoEdit.h; sourceTree = "<group>"; };
+		A28826A22429AE18006C7559 /* MPVideoCompostionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPVideoCompostionManager.h; sourceTree = "<group>"; };
+		A28826A32429AE18006C7559 /* MPVideoCompostionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVideoCompostionManager.m; sourceTree = "<group>"; };
+		B190F915B237517F25ED921B /* libPods-MPVideoEditDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPVideoEditDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62DCE63A2A6BE29EB000479 /* Pods-MPVideoEditDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemoTests/Pods-MPVideoEditDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D36F9A67C05AF9A50D067F9C /* Pods-MPVideoEditDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemoUITests/Pods-MPVideoEditDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA0CE6F64F4DDFE111A50B83 /* Pods-MPVideoEditDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemoUITests/Pods-MPVideoEditDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F034B45015F56F2504A3AA89 /* Pods-MPVideoEditDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPVideoEditDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MPVideoEditDemoTests/Pods-MPVideoEditDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A210E06D242857CF00E94A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E63DE3311799797AFA332C /* libPods-MPVideoEditDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E088242857D000E94A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711042E83E6C89B1B97282EE /* libPods-MPVideoEditDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E093242857D000E94A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C838BDAB77B0C28B655B485 /* libPods-MPVideoEditDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A210E067242857CF00E94A66 = {
+			isa = PBXGroup;
+			children = (
+				A210E072242857CF00E94A66 /* MPVideoEditDemo */,
+				A210E08E242857D000E94A66 /* MPVideoEditDemoTests */,
+				A210E099242857D000E94A66 /* MPVideoEditDemoUITests */,
+				A210E071242857CF00E94A66 /* Products */,
+				C3489283F105F5139709ABA5 /* Pods */,
+				C8EE4D6BD5136A1A100538FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A210E071242857CF00E94A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A210E070242857CF00E94A66 /* MPVideoEditDemo.app */,
+				A210E08B242857D000E94A66 /* MPVideoEditDemoTests.xctest */,
+				A210E096242857D000E94A66 /* MPVideoEditDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A210E072242857CF00E94A66 /* MPVideoEditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A28826A02429A94A006C7559 /* VideoEdit */,
+				A210E073242857CF00E94A66 /* AppDelegate.h */,
+				A210E074242857CF00E94A66 /* AppDelegate.m */,
+				A210E079242857CF00E94A66 /* ViewController.h */,
+				A210E07A242857CF00E94A66 /* ViewController.m */,
+				A210E07F242857D000E94A66 /* Assets.xcassets */,
+				A210E081242857D000E94A66 /* LaunchScreen.storyboard */,
+				A210E084242857D000E94A66 /* Info.plist */,
+				A210E085242857D000E94A66 /* main.m */,
+			);
+			path = MPVideoEditDemo;
+			sourceTree = "<group>";
+		};
+		A210E08E242857D000E94A66 /* MPVideoEditDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A210E08F242857D000E94A66 /* MPVideoEditDemoTests.m */,
+				A210E091242857D000E94A66 /* Info.plist */,
+			);
+			path = MPVideoEditDemoTests;
+			sourceTree = "<group>";
+		};
+		A210E099242857D000E94A66 /* MPVideoEditDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A210E09A242857D000E94A66 /* MPVideoEditDemoUITests.m */,
+				A210E09C242857D000E94A66 /* Info.plist */,
+			);
+			path = MPVideoEditDemoUITests;
+			sourceTree = "<group>";
+		};
+		A28826A02429A94A006C7559 /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				A28826A12429A997006C7559 /* MPVideoEdit.h */,
+				A28826A22429AE18006C7559 /* MPVideoCompostionManager.h */,
+				A28826A32429AE18006C7559 /* MPVideoCompostionManager.m */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
+		C3489283F105F5139709ABA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				373AEE981749A464E4C43074 /* Pods-MPVideoEditDemo.debug.xcconfig */,
+				799A8CF5B4ABEBBAFC48BBCA /* Pods-MPVideoEditDemo.release.xcconfig */,
+				C62DCE63A2A6BE29EB000479 /* Pods-MPVideoEditDemoTests.debug.xcconfig */,
+				F034B45015F56F2504A3AA89 /* Pods-MPVideoEditDemoTests.release.xcconfig */,
+				EA0CE6F64F4DDFE111A50B83 /* Pods-MPVideoEditDemoUITests.debug.xcconfig */,
+				D36F9A67C05AF9A50D067F9C /* Pods-MPVideoEditDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8EE4D6BD5136A1A100538FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B190F915B237517F25ED921B /* libPods-MPVideoEditDemo.a */,
+				4E70790FDD521F95AE2FED1D /* libPods-MPVideoEditDemoTests.a */,
+				8FF0AB17949D731776488423 /* libPods-MPVideoEditDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A210E06F242857CF00E94A66 /* MPVideoEditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A210E09F242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemo" */;
+			buildPhases = (
+				7FF4223F1ACEBFF3095DD64A /* [CP] Check Pods Manifest.lock */,
+				A210E06C242857CF00E94A66 /* Sources */,
+				A210E06D242857CF00E94A66 /* Frameworks */,
+				A210E06E242857CF00E94A66 /* Resources */,
+				2984F64F3D5A8C41E5FC32DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPVideoEditDemo;
+			productName = MPVideoEditDemo;
+			productReference = A210E070242857CF00E94A66 /* MPVideoEditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A210E08A242857D000E94A66 /* MPVideoEditDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A210E0A2242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemoTests" */;
+			buildPhases = (
+				DE871909942ACF9A0426C504 /* [CP] Check Pods Manifest.lock */,
+				A210E087242857D000E94A66 /* Sources */,
+				A210E088242857D000E94A66 /* Frameworks */,
+				A210E089242857D000E94A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A210E08D242857D000E94A66 /* PBXTargetDependency */,
+			);
+			name = MPVideoEditDemoTests;
+			productName = MPVideoEditDemoTests;
+			productReference = A210E08B242857D000E94A66 /* MPVideoEditDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A210E095242857D000E94A66 /* MPVideoEditDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A210E0A5242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemoUITests" */;
+			buildPhases = (
+				654DBAE052E500B1B6ECD260 /* [CP] Check Pods Manifest.lock */,
+				A210E092242857D000E94A66 /* Sources */,
+				A210E093242857D000E94A66 /* Frameworks */,
+				A210E094242857D000E94A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A210E098242857D000E94A66 /* PBXTargetDependency */,
+			);
+			name = MPVideoEditDemoUITests;
+			productName = MPVideoEditDemoUITests;
+			productReference = A210E096242857D000E94A66 /* MPVideoEditDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A210E068242857CF00E94A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					A210E06F242857CF00E94A66 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A210E08A242857D000E94A66 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A210E06F242857CF00E94A66;
+					};
+					A210E095242857D000E94A66 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A210E06F242857CF00E94A66;
+					};
+				};
+			};
+			buildConfigurationList = A210E06B242857CF00E94A66 /* Build configuration list for PBXProject "MPVideoEditDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A210E067242857CF00E94A66;
+			productRefGroup = A210E071242857CF00E94A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A210E06F242857CF00E94A66 /* MPVideoEditDemo */,
+				A210E08A242857D000E94A66 /* MPVideoEditDemoTests */,
+				A210E095242857D000E94A66 /* MPVideoEditDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A210E06E242857CF00E94A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210E083242857D000E94A66 /* LaunchScreen.storyboard in Resources */,
+				A210E080242857D000E94A66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E089242857D000E94A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E094242857D000E94A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2984F64F3D5A8C41E5FC32DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MPVideoEditDemo/Pods-MPVideoEditDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MPVideoEditDemo/Pods-MPVideoEditDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654DBAE052E500B1B6ECD260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MPVideoEditDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF4223F1ACEBFF3095DD64A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MPVideoEditDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE871909942ACF9A0426C504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MPVideoEditDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A210E06C242857CF00E94A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210E07B242857CF00E94A66 /* ViewController.m in Sources */,
+				A210E075242857CF00E94A66 /* AppDelegate.m in Sources */,
+				A210E086242857D000E94A66 /* main.m in Sources */,
+				A28826A42429AE18006C7559 /* MPVideoCompostionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E087242857D000E94A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210E090242857D000E94A66 /* MPVideoEditDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A210E092242857D000E94A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A210E09B242857D000E94A66 /* MPVideoEditDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A210E08D242857D000E94A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A210E06F242857CF00E94A66 /* MPVideoEditDemo */;
+			targetProxy = A210E08C242857D000E94A66 /* PBXContainerItemProxy */;
+		};
+		A210E098242857D000E94A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A210E06F242857CF00E94A66 /* MPVideoEditDemo */;
+			targetProxy = A210E097242857D000E94A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A210E081242857D000E94A66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A210E082242857D000E94A66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A210E09D242857D000E94A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A210E09E242857D000E94A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A210E0A0242857D000E94A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373AEE981749A464E4C43074 /* Pods-MPVideoEditDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A210E0A1242857D000E94A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799A8CF5B4ABEBBAFC48BBCA /* Pods-MPVideoEditDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A210E0A3242857D000E94A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62DCE63A2A6BE29EB000479 /* Pods-MPVideoEditDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPVideoEditDemo.app/MPVideoEditDemo";
+			};
+			name = Debug;
+		};
+		A210E0A4242857D000E94A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F034B45015F56F2504A3AA89 /* Pods-MPVideoEditDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPVideoEditDemo.app/MPVideoEditDemo";
+			};
+			name = Release;
+		};
+		A210E0A6242857D000E94A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0CE6F64F4DDFE111A50B83 /* Pods-MPVideoEditDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPVideoEditDemo;
+			};
+			name = Debug;
+		};
+		A210E0A7242857D000E94A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36F9A67C05AF9A50D067F9C /* Pods-MPVideoEditDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				INFOPLIST_FILE = MPVideoEditDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.MPVideoEditDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPVideoEditDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A210E06B242857CF00E94A66 /* Build configuration list for PBXProject "MPVideoEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A210E09D242857D000E94A66 /* Debug */,
+				A210E09E242857D000E94A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A210E09F242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A210E0A0242857D000E94A66 /* Debug */,
+				A210E0A1242857D000E94A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A210E0A2242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A210E0A3242857D000E94A66 /* Debug */,
+				A210E0A4242857D000E94A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A210E0A5242857D000E94A66 /* Build configuration list for PBXNativeTarget "MPVideoEditDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A210E0A6242857D000E94A66 /* Debug */,
+				A210E0A7242857D000E94A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A210E068242857CF00E94A66 /* Project object */;
+}

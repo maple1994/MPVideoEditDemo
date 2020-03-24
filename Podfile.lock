@@ -1,0 +1,26 @@
+PODS:
+  - GPUImage (0.1.7)
+  - TZImagePickerController (3.3.1)
+  - ZFPlayer (3.2.17):
+    - ZFPlayer/Core (= 3.2.17)
+  - ZFPlayer/Core (3.2.17)
+
+DEPENDENCIES:
+  - GPUImage
+  - TZImagePickerController
+  - ZFPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GPUImage
+    - TZImagePickerController
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  ZFPlayer: ac9cb879291eec259e7fe77e840c884e2b80a499
+
+PODFILE CHECKSUM: fa44692a08881d4a6751b07c508a92a857c24ff5
+
+COCOAPODS: 1.5.3
